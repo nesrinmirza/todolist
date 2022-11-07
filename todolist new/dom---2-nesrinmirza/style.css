@@ -1,0 +1,47 @@
+li{
+    list-style: none;
+    width: 300px;
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+.line-through{
+    text-decoration: line-through;
+    color: yellowgreen;
+}
+
+.todolist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+    background-color: cadetblue;
+    align-items: center;
+}
+
+.deletebtn{
+    background-color: rgb(245, 101, 101);
+    border: none; 
+    margin: 0 5px;
+}
+
+
+#todo-delete-all{
+    background-color: rgb(138, 94, 136);
+    border: none;
+    width: 84px;
+    height: 34px;
+    font-size: 16px;
+    border-radius: 20%;
+}
+.newtask{
+    height: 28px;
+}
+
+.addbtn{
+    background-color: rgb(138, 94, 136);
+    border: none;
+    font-size: 16px;
+    height: 32px;
+    border-radius: 10%;
+}
